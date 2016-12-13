@@ -16,47 +16,6 @@ public class Animator {
         
         //initialize variables
         Scene sc = new Scene();
-        /*Node arm1 = new Node(new ImageDrawable(il.getImage(0)));
-        arm1.addTransformation(new Transformation(0,0,0,300,300,1.0,1.0),0.0);
-        arm1.addTransformation(new Transformation(Math.PI/4.0,25.0,25.0,0,0,1.0,1.0,2),1.0);
-        arm1.addTransformation(new Transformation(-Math.PI/2.0,25.0,25.0,0,0,1.0,1.0,2),3.0);
-        arm1.addTransformation(new Transformation(Math.PI/4.0,25.0,25.0,0,0,1.0,1.0,2),4.0);
-        
-        Node foreArm1 = new Node(new ImageDrawable(il.getImage(0)));
-        foreArm1.addTransformation(new Transformation(-Math.PI/2.0,25.0,25.0,0,75,1.0,1.0), 0.0);
-        arm1.adoptChild(foreArm1);
-        
-        Node arm2 = new Node(new ImageDrawable(il.getImage(0)));
-        arm2.addTransformation(new Transformation(0,0,0,300,300,1.0,1.0),0.0);
-        arm2.addTransformation(new Transformation(-Math.PI/4.0,25.0,25.0,0,0,1.0,1.0,2),1.0);
-        arm2.addTransformation(new Transformation(Math.PI/2.0,25.0,25.0,0,0,1.0,1.0,2),3.0);
-        arm2.addTransformation(new Transformation(-Math.PI/4.0,25.0,25.0,0,0,1.0,1.0,2),4.0);
-        
-        Node foreArm2 = new Node(new ImageDrawable(il.getImage(0)));
-        foreArm2.addTransformation(new Transformation(-Math.PI/2.0,25.0,25.0,0,75,1.0,1.0), 0.0);
-        arm2.adoptChild(foreArm2);
-        
-        Node leg1 = new Node(new ImageDrawable(il.getImage(0)));
-        leg1.addTransformation(new Transformation(0,0,0,300,500,1.0,1.0),0.0);
-        leg1.addTransformation(new Transformation(-Math.PI/4.0,25.0,25.0,0,0,1.0,1.0,2),1.0);
-        leg1.addTransformation(new Transformation(Math.PI/2.0,25.0,25.0,0,0,1.0,1.0,2),3.0);
-        
-        Node calf1 = new Node(new ImageDrawable(il.getImage(0)));
-        calf1.addTransformation(new Transformation(Math.PI/2.0,25.0,25.0,0,75,1.0,1.0),0.0);
-        calf1.addTransformation(new Transformation(-Math.PI/4.0,25.0,25.0,0,0,1.0,1.0,2),1.0);
-        calf1.addTransformation(new Transformation(Math.PI/4.0,25.0,25.0,0,0,1.0,1.0,2),3.0);
-        leg1.adoptChild(calf1);
-        
-        Node leg2 = new Node(new ImageDrawable(il.getImage(0)));
-        leg2.addTransformation(new Transformation(0,0,0,300,500,1.0,1.0),0.0);
-        leg2.addTransformation(new Transformation(Math.PI/4.0,25.0,25.0,0,0,1.0,1.0,2),1.0);
-        leg2.addTransformation(new Transformation(-Math.PI/2.0,25.0,25.0,0,0,1.0,1.0,2),3.0);
-        
-        Node calf2 = new Node(new ImageDrawable(il.getImage(0)));
-        calf2.addTransformation(new Transformation(Math.PI/2.0,25.0,25.0,0,75,1.0,1.0),0.0);
-        calf2.addTransformation(new Transformation(-Math.PI/2.0,25.0,25.0,0,0,1.0,1.0,2),1.0);
-        calf2.addTransformation(new Transformation(Math.PI/4.0,25.0,25.0,0,0,1.0,1.0,2),3.0);
-        leg2.adoptChild(calf2);*/
         
         Node body = new Node(new ImageDrawable(il.getImage(1)));
         body.addTransformation(new Transformation(0,0,0,300,300,1.0,1.0),0.0);
