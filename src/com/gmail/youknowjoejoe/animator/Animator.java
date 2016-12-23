@@ -89,13 +89,13 @@ public class Animator {
         
         int img = 0;
         
-        for(int i = 0; i < 60; i++){
+        for(int i = 0; i < 16; i++){
             //setup g2d
             BufferedImage buffer = new BufferedImage(800,800,BufferedImage.TYPE_INT_ARGB);
             Graphics2D g2d = buffer.createGraphics();
             
             //draw all the things
-            sc.update(i*4.0/60.0);
+            sc.update(i*4.0/16.0);
             sc.draw(g2d);
             
             //dispose and save image

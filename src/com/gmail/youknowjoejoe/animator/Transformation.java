@@ -36,7 +36,7 @@ public class Transformation {
     	if(transitionType > 1){
     		tempFactor = Math.pow(factor,transitionType);
     	} else if(transitionType < 0){
-    		tempFactor = -Math.pow(factor-1, transitionType)+1;
+    		tempFactor = -Math.pow(Math.abs(factor-1), transitionType)+1;
     	}
     	
     	at = new AffineTransform();
